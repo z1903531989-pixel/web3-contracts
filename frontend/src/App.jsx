@@ -3,7 +3,7 @@ import { ethers } from 'ethers';
 import './App.css';
 
 // ===== 配置 =====
-const AGGREGATOR_ADDRESS = '0x3517228be4fbFC6f2753faA67De404514C1fB853';
+const AGGREGATOR_ADDRESS = '0x1CF77670ef930a170a1F2cF88dcDae4f433CBD38';
 const TEST_TOKEN = '0xa50CDefb741C4590b36af57ab295Fc942F4247E8';
 const TOKEN_SYMBOL = 'TEST';
 const SEPOLIA_CHAIN_ID = '0xaa36a7';
