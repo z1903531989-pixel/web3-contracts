@@ -1,0 +1,19 @@
+{
+  "name": "ai-aggregator-backend",
+  "version": "1.0.0",
+  "description": "Multi-model AI aggregation platform — route to OpenAI, Claude, Gemini, DeepSeek, Groq",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "openai": "^4.20.0",
+    "@anthropic-ai/sdk": "^0.20.0",
+    "@google/generative-ai": "^0.12.0",
+    "groq-sdk": "^0.5.0"
+  }
+}
